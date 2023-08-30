@@ -22,7 +22,7 @@ pydantic==1.10.2
 pyreadline3==3.4.1
 python-dotenv==0.10.1
 python-multipart==0.0.5
-sympy==1.12
+sympy==1.10.1
 typing_extensions==4.0
 uvicorn==0.20
 watchfiles==0.19.0
