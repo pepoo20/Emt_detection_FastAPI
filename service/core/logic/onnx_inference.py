@@ -14,7 +14,7 @@ def emotion_detector(img_array):
     img_array  = np.expand_dims(im , axis = 0)
     print(img_array.shape)
 
-    onnx_pred = m_q.run(['dense_5'], {"input": img_array})
+    onnx_pred = m_q.run(['dense_2'], {"input": img_array})
     print(np.argmax(onnx_pred[0][0]))
 
     emotion = ""
